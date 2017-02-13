@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Progs\\nodejs\\node.exe',
+1 verbose cli   'E:\\Progs\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'deploy' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+5 info lifecycle r@1.0.0~predeploy: r@1.0.0
+6 verbose lifecycle r@1.0.0~predeploy: unsafe-perm in lifecycle true
+7 verbose lifecycle r@1.0.0~predeploy: PATH: E:\Progs\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\gusak\Desktop\forGitHub\Clock\node_modules\.bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;E:\Progs\nodejs\;C:\Program Files (x86)\Brackets\command;E:\Progs\Git\cmd;E:\Progs\Ruby23-x64\bin;C:\Users\gusak\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\gusak\AppData\Roaming\npm
+8 verbose lifecycle r@1.0.0~predeploy: CWD: C:\Users\gusak\Desktop\forGitHub\Clock
+9 silly lifecycle r@1.0.0~predeploy: Args: [ '/d /s /c', 'npm run start' ]
+10 verbose stack Error: kill ENOSYS
+10 verbose stack     at exports._errnoException (util.js:1026:11)
+10 verbose stack     at process.kill (internal/process.js:172:13)
+10 verbose stack     at process.listener (E:\Progs\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+10 verbose stack     at emitNone (events.js:91:20)
+10 verbose stack     at process.emit (events.js:185:7)
+10 verbose stack     at processEmit (E:\Progs\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+10 verbose stack     at processEmit (E:\Progs\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+10 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+11 verbose cwd C:\Users\gusak\Desktop\forGitHub\Clock
+12 error Windows_NT 10.0.14393
+13 error argv "E:\\Progs\\nodejs\\node.exe" "E:\\Progs\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "deploy"
+14 error node v6.9.1
+15 error npm  v3.10.8
+16 error code ENOSYS
+17 error errno ENOSYS
+18 error syscall kill
+19 error kill ENOSYS
+20 error If you need help, you may report this error at:
+20 error     <https://github.com/npm/npm/issues>
+21 verbose exit [ 1, true ]
